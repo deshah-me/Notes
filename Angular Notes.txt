@@ -1,0 +1,45 @@
+
+Load the component is called as bootstraping
+
+An Interface is a specification identifying a related set of properties and methods.
+Two ways interface 
+	1.	as a Type (has datatype: string ,number)
+	2.	as a feature(declaration only no code)
+	
+	Some properties doesnt have data type so in order to get those properties of custom type use interface
+	IN cmd type ng g interface product
+	This should be in your child component or as required
+	
+A Lifecycle hook is an interface we implement to write code when a component lifecycle eveny occurs.
+onInit:Perform component initialization, retrieve data
+onChange: Perform action after changes to input properties
+onDestroy:perform cleanup
+
+
+Dependency Injection is a coding pattern in which a class receive the instance
+ of objects it needs (called depenedencies) from an external source rather than 
+ creating them itself.
+ 
+ RXJS is a library for composing data using observable sequences and transforming 
+ that data using operators.Angular uses rxjs for working with data especially with asynchronous data such as http request
+ 
+ Pluralsight courses
+ 1. Angular: reactive forms: http and crud
+ 2. RXJS in Angular:Reactive Development:RXJS and obsevables
+ 
+ Observable-> collection of items over time, we subscribe observable to receive notification
+ 
+ 
+ 
+ Template driven(FormsModule) :
+ 1. ngForm
+ 2. ngModel
+ 3. ngModelGroup
+ 
+ Reactive FormsModule:
+ 1. formGroup
+ 2. formControl
+ 3. formControlName
+ 4. formGroupName
+ 5. formArrayName
+ 
